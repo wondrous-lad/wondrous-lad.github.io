@@ -71,3 +71,26 @@ body {
     font-family: var(--font-base),sans-serif !important;
     background-color: black !important;
 }
+input{
+    width: 350px;
+}
+@media screen and (max-width: 800px) {
+    input{
+        max-width: 100%;
+      /* -ms-flex: 50%;
+      flex: 50%;
+      max-width: 50%; */
+    }
+  }
+@media screen and (max-width: 600px) {
+    input{
+      width: 175px;
+    }
+    .container-reg{
+        font-weight: 100;
+        font-size:x-small;
+    }
+    .header{
+        font-size: small;
+    }
+  }
